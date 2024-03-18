@@ -201,4 +201,12 @@ footer a {
     line-height: 1.25;
     margin-bottom: 10px;
   }
+  .card-header img {
+    max-width: 125px;
+    max-height: 125px;
+  }
+  iframe {
+    max-width: 125px;
+    max-height: 125px;
+  }
 }
