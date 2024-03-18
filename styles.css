@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #d2b7a6;
+  background-color: #c2934e;
 }
 .container {
   max-width: 1450px;
@@ -16,16 +16,45 @@ body {
 .three-columns {
   grid-template-columns: 2fr 3fr 3fr;
 }
+.three-cards {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
 section {
-  max-width: 1450px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 100px 100px;
 }
 main section {
   background-color: white;
+}
+.secondary {
+  text-align: center;
+}
+.button {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #c2934e;
+}
+.card {
+  margin-top: 30px 0;
+}
+.card-body {
+  text-align: left;
+  padding: 30px;
+}
+.card-footer {
+  padding: 10px;
 }
 header {
   color: white;
@@ -77,7 +106,18 @@ h3 {
   letter-spacing: 5px;
   margin: 0;
 }
-
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+}
+h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+}
 header a {
   background: white;
   color: black;
@@ -135,7 +175,7 @@ footer a {
   h2 {
     font-size: 20px;
   }
-  height: {
+  height {
     font-size: 12px;
   }
   .grid {
@@ -144,5 +184,8 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  section h3 {
+    line-height: 1.25;
   }
 }
