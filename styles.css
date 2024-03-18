@@ -5,13 +5,21 @@ body {
   max-width: 1450px;
   margin: 0 auto;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 header {
   color: white;
   background-image: linear-gradient(
       rgba(124, 133, 140, 0.2),
       rgba(124, 133, 140, 0.3)
     ),
-    url("/media/BOK.jpg");
+    url("/media/downtown-tulsa.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1.5;
@@ -48,9 +56,41 @@ header a {
   text-transform: uppercase;
 }
 footer {
-  text-align: center;
+  color: white;
+  background-image: linear-gradient(
+      rgba(50, 50, 55, 0.9),
+      rgba(50, 50, 55, 0.9)
+    ),
+    url("/media/BOK.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
 }
-@media (max-width: 900px) {
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+  margin-right: 20px;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer ul {
+  padding: 0;
+}
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
