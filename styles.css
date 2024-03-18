@@ -2,33 +2,6 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #c2934e;
 }
-.container {
-  max-width: 1450px;
-  margin: 0 auto;
-}
-.grid {
-  display: grid;
-  grid-gap: 64px;
-}
-.secondary {
-  background-color: #ededed;
-}
-.two-columns {
-  grid-template-columns: 1fr 1fr;
-}
-.three-columns {
-  grid-template-columns: 2fr 3fr 3fr;
-}
-.three-cards {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.img-responsive {
-  max-width: 100%;
-  display: block;
-}
-.card img {
-  display: inline;
-}
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -36,34 +9,6 @@ section {
 }
 main section {
   background-color: white;
-}
-.secondary {
-  text-align: center;
-}
-.button {
-  display: block;
-  color: white;
-  font-weight: 700;
-  font-size: 14px;
-  text-align: center;
-  text-decoration: none;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  padding: 16px;
-  background-color: #c2934e;
-}
-.card {
-  margin-top: 30px 0;
-}
-.card-body {
-  text-align: left;
-  padding: 30px;
-}
-.card-footer {
-  padding: 10px;
-}
-.photos {
-  text-align: center;
 }
 header {
   color: white;
@@ -173,6 +118,59 @@ footer ul {
 footer a {
   color: white;
   opacity: 0.7;
+}
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+.secondary {
+  background-color: #ededed;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+.two-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.three-columns {
+  grid-template-columns: 2fr 3fr 3fr;
+}
+.three-cards {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.img-responsive {
+  max-width: 100%;
+  display: block;
+}
+.card {
+  margin-top: 30px 0;
+}
+.card-body {
+  text-align: left;
+  padding: 30px;
+}
+.card-footer {
+  padding: 10px;
+}
+.card img {
+  display: inline;
+}
+.button {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #c2934e;
+}
+.photos {
+  text-align: center;
 }
 @media (max-width: 960px) {
   header {
