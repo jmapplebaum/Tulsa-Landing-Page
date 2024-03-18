@@ -1,7 +1,66 @@
-h1 {
+body {
   font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+header {
+  color: white;
+  background-image: linear-gradient(
+      rgba(124, 133, 140, 0.2),
+      rgba(124, 133, 140, 0.3)
+    ),
+    url("/media/BOK.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.5;
+  padding: 225px;
+  text-align: center;
+}
+h1 {
   font-size: 96px;
   font-weight: 700;
-  line-height: 144px;
+  margin: 0;
+}
+h2 {
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+}
+h3 {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  background: white;
+  color: black;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-top: 32px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer {
   text-align: center;
+}
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  height: {
+    font-size: 12px;
+  }
 }
